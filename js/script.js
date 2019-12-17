@@ -1,1 +1,3 @@
-alert('funziona la pagina?')
+//alert('Funziona la pagina?')
+
+console.log('provami');
