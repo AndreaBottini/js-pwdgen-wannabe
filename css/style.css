@@ -1,0 +1,14 @@
+body {
+  background-color: lime;
+  font-family: fantasy;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  text-align: center;
+  font-weight: bold;
+}

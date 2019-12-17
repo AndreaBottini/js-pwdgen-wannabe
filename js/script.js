@@ -35,9 +35,10 @@ var colorePreferito = prompt ('Bene! Adesso ho bisogno di conoscere il tuo color
 console.log(colorePreferito);
 var numerObbligatorio = 19;
 console.log(numerObbligatorio);
-
 var password = nomeUtente + cognomeUtente + colorePreferito + numerObbligatorio;
-console.log(password)
+console.log(password);
 
-
+document.getElementById('nome-utente').innerHTML = nomeUtente;
+document.getElementById('cognome-utente').innerHTML = cognomeUtente;
+document.getElementById('colore-utente').innerHTML = colorePreferito;
 document.getElementById('password').innerHTML = password;
